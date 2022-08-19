@@ -7,6 +7,7 @@ import { loginView } from './views/login.js'
 import { registerView } from './views/register.js'
 import { createView } from "./views/create.js"
 import { detailsView } from "./views/details.js"
+import { eiditView } from "./views/edit.js"
 
 
 
@@ -20,7 +21,8 @@ page('/login', loginView) // 3
 page('/register', registerView) // 4
 page('/catalog', catalogView) // 2
 page('/create', createView )
-page('/details', detailsView )
+page('/details', detailsView)
+page('/edit', eiditView)
 
 
 //start App

@@ -16,7 +16,7 @@ const catalogTemplate = (jobs) => html `
               ><span class="title">${job.title}</span>
             </p>
             <p><strong>Salary:</strong><span class="salary">${job.salary}</span></p>
-            <a class="details-btn" href="">Details</a>
+            <a class="details-btn" href="/details">Details</a>
           </div>
  `
 

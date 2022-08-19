@@ -7,7 +7,7 @@ export async function createOffer(offer){
  return post('/data/offers' , offer)
 }
 export async function getOfferById(id){
-    return get('/data/offers/' + id)
+    return get('/data/offers/' + id) 
 }
 export async function deleteOffer(id){
     return del('/data/offers/' + id)
